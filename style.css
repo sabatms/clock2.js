@@ -16,14 +16,14 @@ justify-content: center;
 body{
 padding: 0 10px;
 min-height: 100vh;
-background: blue;
+background:  black;
 }
    
 .wrapper{
 width: 440px;
 padding: 30px 30px 38px;
-background: #fff;
-border-radius: 10px;
+background: #bfbfbf;
+border-radius: 20px;
 flex-direction: column;
 box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
@@ -50,7 +50,7 @@ cursor: no-drop;
 .content .column{
 padding: 0 10px;
 border-radius: 5px;
-border: 1px solid #bfbfbf;
+border: 2px solid rgb(123, 88, 12);
 width: calc(100% / 3 - 5px);
 }
 
@@ -78,5 +78,5 @@ font-size: 20px;
 padding: 17px 0;
 margin-top: 20px;
 border-radius: 5px;
-background: #4A98F7;
+background: rgb(43, 104, 148);
 }
